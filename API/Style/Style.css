@@ -1,0 +1,46 @@
+
+body{
+    background-color: aqua;
+    margin: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-light: #fff;
+    --clr-accent: #ff02ab;
+    --clr-dark: #a1e9ff;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+.Nombre1{
+    position: relative;
+    text-emphasis-color: var(--fs-body);
+    color: red;
+    font-size: 4rem;
+}
+.Nombre2{
+    position: relative;
+    text-emphasis-color: var(--clr-dark);
+    color: red;
+    font-size: 4rem;
+
+}
+.appli{
+    font-size: 10rem;
+    color: #9775f7;
+  
+        background: linear-gradient(rgb(240, 3, 248),red);
+        -webkit-background-clip: text;
+        color: transparent;  
+        margin: 0.5em;
+}
+
